@@ -1,0 +1,14 @@
+// This pseudocode is intended to compute the number
+// of refrigerator capacity in cubic feet
+start
+   Declarations
+	cubic_inchs_per_cubic_ft = 1728
+   input modelName
+   input height
+   input width
+   input depth
+   volumeInCubicInches = height * width * depth
+   volumeInCubicFeet = volumeInCubicInches / cubic_inchs_per_cubic_ft
+   output modelName
+   output volumeInCubicFeet
+stop

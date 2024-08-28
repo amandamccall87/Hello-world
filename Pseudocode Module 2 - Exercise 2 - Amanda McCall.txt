@@ -1,0 +1,11 @@
+// This pseudocode is intended to compute the account balance
+// with overdrawn fee
+start
+   input accountBalance 
+   input numberOfOverdraws
+   overDrawnFee = (0.01 accountBalance) - (5 numberOfOverdraws)
+   newAccountBalance = accountBalance - numberOfOverdraws
+   output calulatedFee + overDrawnFee
+   output newAccountBalance 
+   output thanksForUsingThisProgram
+stop
